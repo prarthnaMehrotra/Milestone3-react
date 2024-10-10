@@ -1,0 +1,14 @@
+.navbar {
+    position: relative;
+    top: 0px;
+    margin-bottom: 0px;
+}
+
+.container {
+    padding-top: 20px;
+}
+
+.dropdown-menu {
+    left: auto !important;
+    right: 0;
+}

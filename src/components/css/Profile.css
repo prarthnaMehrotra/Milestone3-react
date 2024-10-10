@@ -1,0 +1,200 @@
+.profile-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background: url('../images/bookingbackground.png') no-repeat;
+    background-size: cover;
+    min-height: 87.4vh;
+}
+
+.profile-container {
+    max-width: 600px;
+    width: 100%;
+    max-height: 82vh;
+    margin-top: 30px;
+}
+
+.profile-table-container {
+    max-height: 70vh;
+    overflow-y: auto;
+    scrollbar-width: none;
+}
+
+.profile-container h2 {
+    color: white;
+    font-size: 28px;
+    margin-bottom: -5px;
+}
+
+.update-button button {
+    font-size: 16px;
+    position: relative;
+    top: 20px;
+}
+
+.profile-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-family: 'Arial', sans-serif;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.profile-table thead {
+    background: rgba(255, 255, 255, 0.2);
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.profile-table th {
+    font-size: 15px;
+    text-align: left;
+    padding: 12px;
+    color: white;
+    text-transform: uppercase;
+}
+
+.profile-table td {
+    padding: 12px;
+    color: white;
+    font-size: 16px;
+}
+
+.profile-table tbody tr {
+    transition: background 0.3s ease;
+}
+
+.profile-table tbody tr:nth-child(even) {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.profile-table tbody tr:nth-child(odd) {
+    background-color: rgba(255, 255, 255, 0.05);
+}
+
+.profile-table button {
+    font-size: 15px;
+}
+
+.profile-table button:hover {
+    opacity: 0.9;
+}
+
+/* Navbar Styling */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    color: white;
+    width: 100%;
+}
+
+.navbar-logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 40px;
+    height: auto;
+    margin-right: 10px;
+}
+
+.brand-name {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.navbar-links {
+    margin-left: auto;
+    display: flex;
+}
+
+.navbar-links a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 17px;
+}
+
+.navbar-links a:hover {
+    text-decoration: underline;
+}
+
+/* Modal styling */
+.profile-modal {
+    background-color: white;
+    height: 350px;
+    position: relative;
+    top: 100px;
+}
+
+.password-modal {
+    background-color: white;
+    height: 480px;
+    position: relative;
+    top: 100px;
+}
+
+.add-money-modals {
+    background-color: white;
+    height: 430px;
+    position: relative;
+    top: 100px;
+}
+
+.success-alert {
+    position: fixed;
+    top: 80px;
+    right: 20px;
+    background-color: #28a745;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+    transition: opacity 0.5s ease;
+}
+
+/* Form Styles */
+input[type="text"],
+input[type="email"],
+input[type="number"],
+input[type="password"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 7px 18px;
+    border: none;
+    font-size: 18px;
+    border-radius: 17px;
+    margin-right: 10px;
+    color: white;
+    background: rgb(51, 162, 214);
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.9;
+}
+
+/* Modal Styles */
+.Modal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Modal h2 {
+    color: #333;
+}

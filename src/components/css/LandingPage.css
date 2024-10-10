@@ -1,0 +1,62 @@
+/* src/components/LandingPage.css */
+.hero-section {
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background: url('../images/event3.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+.hero-content {
+    position: absolute;
+    left: 10px;
+    top: 40%;
+    transform: translateY(-50%);
+    background-color: transparent;
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 650px;
+    z-index: 1;
+}
+
+.hero-section h2 {
+    font-size: 2rem;
+}
+
+.hero-section p {
+    font-size: 0.9rem;
+}
+
+/* Navbar style */
+.navbar-button {
+    background-color: transparent;
+    color: rgba(0, 0, 0, .55);
+    font-size: 17px;
+    border: none;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.navbar-button:hover {
+    text-decoration: underline;
+    color: rgba(16, 15, 15, 0.55);
+    background-color: transparent;
+}
+
+.navbar-links {
+    margin-left: auto;
+    display: flex;
+}
+
+.navbar-links a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 17px;
+}
+
+.navbar-links a:hover {
+    text-decoration: underline;
+}

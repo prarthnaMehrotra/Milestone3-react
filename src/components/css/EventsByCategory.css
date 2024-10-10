@@ -1,0 +1,98 @@
+.event-by-category {
+    padding: 20px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.event-row {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.event-cards {
+    width: calc(33.333% - 10px);
+    height: 310px;
+    width: 350px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    transition: transform 0.3s;
+    display: flex;
+    flex-direction: column;
+}
+
+.event-cards:focus {
+    outline: none;
+    border: 1px solid #ddd;
+}
+
+.event-cards:hover {
+    transform: scale(1.05);
+}
+
+.event-cards img {
+    width: 100%;
+    height: 200px;
+    margin-bottom: 6px;
+}
+
+.event-cards h3 {
+    font-size: 18px;
+    text-align: center;
+}
+
+.button-container {
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+}
+
+.event-cards button:focus {
+    outline: none;
+}
+
+.view-more-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+}
+
+.modal-header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.modal-close-button {
+    background: transparent;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.modal-label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+.modal-select,
+.modal-input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.button-disabled {
+    cursor: not-allowed;
+    opacity: 0.5;
+}

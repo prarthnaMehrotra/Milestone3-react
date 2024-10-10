@@ -1,0 +1,126 @@
+.manage-organizer-div {
+    height: 89.7vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background: url('../images/bookingbackground.png') no-repeat center center;
+    background-size: cover;
+}
+
+.manage-organizer-container {
+    max-width: 1150px;
+    width: 100%;
+    max-height: 82vh;
+}
+
+.organizer-table-container {
+    max-height: 70vh;
+    overflow-y: auto;
+    scrollbar-width: none;
+}
+
+.manage-organizer-container h2 {
+    color: white;
+    font-size: 28px;
+    margin-bottom: -1px;
+}
+
+.organizer-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-family: 'Arial', sans-serif;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.organizer-table thead {
+    background: rgba(255, 255, 255, 0.2);
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.organizer-table th {
+    font-size: 15px;
+    text-align: left;
+    padding: 12px;
+    color: white;
+    text-transform: uppercase;
+}
+
+.organizer-table td {
+    padding: 12px;
+    color: white;
+    font-size: 16px;
+}
+
+.organizer-table tbody tr {
+    transition: background 0.3s ease;
+}
+
+.organizer-table tbody tr:nth-child(even) {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.organizer-table tbody tr:nth-child(odd) {
+    background-color: rgba(255, 255, 255, 0.05);
+}
+
+.organizer-table button {
+    padding: 7px 18px;
+    border: none;
+    font-size: 15px;
+    border-radius: 15px;
+    margin-right: 10px;
+    color: white;
+    background: rgb(51, 162, 214);
+    cursor: pointer;
+}
+
+.organizer-table button:hover {
+    opacity: 0.9;
+}
+
+/* Navbar Styling */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    color: white;
+}
+
+.navbar-logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 40px;
+    height: auto;
+    margin-right: 10px;
+}
+
+.brand-name {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.navbar-links {
+    margin-left: auto;
+    display: flex;
+}
+
+.navbar-links a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 17px;
+}
+
+.navbar-links a:hover {
+    text-decoration: underline;
+}

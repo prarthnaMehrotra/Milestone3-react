@@ -1,0 +1,101 @@
+.dashboard-content {
+    background-image: url('../images/bookingbackground.png');
+    background-size: cover;
+    background-position: center;
+    height: 89vh;
+    padding-top: 56px;
+    color: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.dashboard-card {
+    border-radius: 15px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    height: 230px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card-header,
+.card-body,
+.card-footer {
+    background: transparent;
+    border: none;
+}
+
+.card-icon {
+    font-size: 2.5rem;
+    color: rgb(51, 162, 214);
+    margin-bottom: 5px;
+}
+
+.admin-button-container {
+    margin-top: auto;
+}
+
+.btn {
+    padding: 9px 18px;
+    border: none;
+    font-size: 15px;
+    border-radius: 15px;
+    margin-right: 10px;
+    color: white;
+    background: rgb(51, 162, 214);
+    cursor: pointer;
+}
+
+.btn:hover {
+    color: white;
+    background: rgb(33, 127, 170);
+}
+
+.btn:focus {
+    color: white;
+    background: rgb(33, 127, 170);
+}
+
+/* Navbar Styling */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    color: black;
+}
+
+.navbar-logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 40px;
+    height: auto;
+    margin-right: 10px;
+}
+
+.brand-name {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.navbar-links {
+    margin-left: auto;
+    display: flex;
+}
+
+.navbar-links a {
+    color: black;
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 17px;
+}
+
+.navbar-links a:hover {
+    text-decoration: underline;
+}
